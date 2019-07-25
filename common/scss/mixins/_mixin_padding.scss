@@ -1,0 +1,36 @@
+// @include padding(20px,10px,null,0px);
+@mixin padding($top:null,$right:null,$bottom:null,$left:null) {
+    @if $lang == 'ltr'{
+      
+      @if ($top){
+        padding-top:$top;
+      }
+      @if ($right){
+        padding-right:$right;
+      }
+      @if ($bottom){
+        padding-bottom:$bottom;
+      }
+      @if ($left){
+        padding-left:$left;
+      }
+      
+   }
+   @if $lang == 'rtl'{
+     
+     @if ($top){
+        padding-top:$top;
+      }
+      @if ($right){
+        padding-left:$right;
+      }
+      @if ($bottom){
+        padding-bottom:$bottom;
+      }
+      @if ($left){
+        padding-right:$left;
+        
+      }
+      
+   }
+ }

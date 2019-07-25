@@ -1,0 +1,19 @@
+@import 'variables-default'; // Custom Default Variables
+@import 'mixins/mixin-general'; // Custom Default Mixins
+
+$lang:  'arb';
+
+/*
+@if $lang == 'eng'{
+    right: 0;
+}
+@if $lang == 'arb'{
+    left: 0;
+}
+*/
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+
+// Common
+@import 'common-include';

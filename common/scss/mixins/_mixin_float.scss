@@ -1,0 +1,24 @@
+@mixin float($position) {
+   @if $lang == 'ltr'{
+
+     @if ($position == "right"){
+      float:right;
+     }
+     @if ($position == "left"){
+      float:left;
+     }
+  
+     
+   }
+    @if $lang == 'rtl'{
+
+     @if ($position == "right"){
+      float:left;
+     }
+     @if ($position == "left"){
+      float:right;
+     }
+     
+  }
+}
+
