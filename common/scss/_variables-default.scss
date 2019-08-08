@@ -1,0 +1,20 @@
+$color:(
+  primary           :    #FF2A5D,
+  primart-text      :    #fff,
+  secondary         :    #FF7F70,
+  secondary-text    :    #fff,
+);
+
+$font:(
+    base            :      'Roboto', sans-serif,
+    heading         :      'Roboto', sans-serif
+);
+
+$font-size:(
+    xs              :       $base-font - 3px,   // extra small  - 11px
+    sm              :       $base-font - 2px,   // small        - 12px 
+    nr              :       $base-font,         // normal       - 14px
+    md              :       $base-font + 10px,  // middle       - 24px
+    lg              :       $base-font + 24px,  // large        - 38px
+    xlg             :       $base-font + 31px,  // extra large  - 45px
+);

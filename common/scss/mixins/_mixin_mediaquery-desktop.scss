@@ -1,0 +1,12 @@
+@mixin desktop{
+    @media (min-width:1025px){ @content; }
+}
+
+/* Example to use
+body{
+  background: color(primary);
+  @include desktop{
+    background:#fff;
+  }
+}
+*/

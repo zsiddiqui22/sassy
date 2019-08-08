@@ -1,0 +1,8 @@
+// @include transition(all 0.5s ease-out);
+@mixin transition($trans) {
+  -webkit-transition: $trans;
+    -moz-transition: $trans;
+    -o-transition: $trans;
+    -ms-transition: $trans;
+    transition: $trans;
+}

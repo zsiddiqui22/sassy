@@ -1,0 +1,12 @@
+@mixin mobile{
+    @media (max-width:767px){ @content; }
+}
+
+/* Example to use
+body{
+  background: color(primary);
+  @include mobile{
+    background:#fff;
+  }
+}
+*/
