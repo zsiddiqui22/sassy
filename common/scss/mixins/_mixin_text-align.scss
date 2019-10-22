@@ -1,0 +1,23 @@
+@mixin text-align($position) {
+   @if $lang == 'ltr'{
+
+     @if ($position == "right"){
+      text-align:right;
+     }
+     @if ($position == "left"){
+      text-align:left;
+     }
+  
+     
+   }
+    @if $lang == 'rtl'{
+
+     @if ($position == "right"){
+      text-align:left;
+     }
+     @if ($position == "left"){
+      text-align:right;
+     }
+     
+  }
+}
